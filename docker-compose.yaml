@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  was:
+    image: ibmcom/websphere-traditional:latest
+    restart: always
+    container_name: was
+    volumes:
+    - ./password.txt:/tmp/PASSWORD
+    ports:
+    - 9043:9043
+    - 9443:9443
