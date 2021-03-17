@@ -6,6 +6,7 @@ services:
     container_name: was
     volumes:
     - ./password.txt:/tmp/PASSWORD
+    - ./volumes/ext:/work/ext
     ports:
     - 9043:9043
     - 9443:9443

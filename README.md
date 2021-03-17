@@ -9,7 +9,8 @@ docker-compose up -d
 docker-compose logs was
 # Parada 
 docker-compose down
-#
-(Entra a la consola)[https://localhost:9043/ibm/console/login.do?action=secure]
+# URL de acceso
+[Entra a la consola](https://localhost:9043/ibm/console/login.do?action=secure)
+# Datos de acceso
 Login: wsadmin
 Password: (contenido del password.txt o Admin123 por defecto) 
